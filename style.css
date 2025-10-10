@@ -1,14 +1,20 @@
 h1 {color: white;}
 h2 {font-size: 30px;}
-h2 {color: rgb(86, 86, 86);}
+h2 {color: rgb(58, 58, 58);}
+h3 {color: darkcyan;}
+h3 {font-size: 35px;}
+h4 {color: rgb(80, 80, 80);}
+h5 {color: darkcyan;}
+h5 {font-size: 20px;}
 
 img {
+    display: flex;
     border-radius: 5px;
 }
 
 .nadpis{
     background-color: darkcyan;
-    padding: 10px 50px;
+    padding: 1px 40px;
     margin: auto;
     border-radius: 10px;
     max-width: 1000px;
@@ -21,7 +27,7 @@ img {
     margin: 40px auto;
     padding: 1px 40px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 800px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -33,14 +39,12 @@ img {
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
-}
-
-#navbar a {
     color: rgb(239, 239, 239);
     text-decoration: none;
 }
 
 #navbar ul {
+    padding: 0px;
     display: flex;
     list-style: none;
     align-items: center;
