@@ -1,61 +1,101 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Kompuj.To</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-<header>
-    <div class="nadpis">
-        <h1>Kompuj.To</h1>
-    <nav id="navbar">
-        <ul>
-            <li><a href="index.html"><i class="fa-regular fa-house"></i>Úvod</a></li>
-            <li><a href="onas.html"><i class="fa-regular fa-user"></i>O nás</a></li>
-            <li><a href="kontakt.html"><i class="fa-regular fa-bell"></i>Kontakt</a></li>
-        </ul>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- START NAV -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="prvni/onas.html">O Nás</a>
+        </li>
+        <li>
+          <a href="prvni/index.html">Úvod</a>
+        </li>
+        <li>
+          <a href="prvni/kontakt.html">Kontakt</a>
+        </li>
+      </ul>
     </nav>
-    </div>
-</header>
-<main>
-    <div class="container">
-        <h2>🖥️ PC Sestavy</h2>    
-            <img src="https://www.geekboy.cz/cdn/var/gb/images/2023/7/2545/64a0634dabe5c/kdo-ma-nejlepsi-pc-sestavy-alza-gamebox-czc-knight-hal3000-a-dalsi-7-51-screenshot.webp" width="450" alt="">
-        <h2>Komponenty</h2>
-            <ul>
-                <h4>
-                <li>Procesor - (CPU)</li>
-                <li>Základní deska - (MB)</li>
-                <li>Grafická karta - (GPU)</li>
-                <li>Operační paměť - (RAM)</li>
-                <li>Zdroj - (PSU)</li>
-                <li>Disk - (SSD/HDD)</li>
-                <li>Skříň</li>
-                </h4>
-            </ul>
-            <h2>Jak komponenty poskládat ?</h2>
-        <nav class="ytodkaz">
-            <a href="https://www.youtube.com/watch?v=e-9FOctIF3c&t=2208s"><h5>Návod na YouTube</h5></a>
-        </nav>
-            <ol>
-                <h4>
-                <li>Základní deska</li>
-                <li>Procesor do socketu</li>
-                <li>Ram do slotu na 2 a 4 pozici</li>
-                <li>SSD do slotu m.2</li>
-                <li>Základní deska do skříně</li>
-                <li>Zdroj do skříně</li>
-                <li>Zapojit zdroj do komponentů</li>
-                <li>Nasadit grafiku od PCIe slotu</li>
-                </h4>
-            </ol>
-        </div>
-    </main>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Dělam weby</h1>
+      <p>jsem žák a učím se</p>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="/cdn-cgi/l/email-protection#fc99849d918c9099bc99849d918c9099d29f9391" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
     <footer>
-        <p>
+      <p>
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p>
+      <p>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+       <p>
         <a href="https://jigsaw.w3.org/css-validator/validator?uri=adamvarys.github.io&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=cs">
             <img style="border:0;width:88px;height:31px"
                 src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
@@ -70,5 +110,7 @@
         </a>
     </p>
     </footer>
-    </body>
+
+    <!-- END FOOTER SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 </html>
